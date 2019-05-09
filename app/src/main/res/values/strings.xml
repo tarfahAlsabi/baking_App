@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Baking App</string>
+    <string name="servings">Servings: </string>
+    <string name="recipeIngredient">Recipe Ingredients</string>
+    <string name="ingredient">ingredient</string>
+    <string name="quantity">quantity</string>
+    <string name="measure">measure</string>
+    <string name="no_video">there is no video for this step</string>
+    <string name="previous">previous step</string>
+    <string name="next">next step</string>
+    <string name="appwidget_text">Bakery App</string>
+    <string name="add_widget">Add widget</string>
+</resources>

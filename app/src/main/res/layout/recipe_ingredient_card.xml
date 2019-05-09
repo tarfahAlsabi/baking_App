@@ -1,0 +1,39 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/ingredients_ingredient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/ingredient"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ingredients_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/quantity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="@+id/ingredients_ingredient"
+        app:layout_constraintStart_toEndOf="@+id/ingredients_ingredient"
+        app:layout_constraintTop_toTopOf="@+id/ingredients_ingredient" />
+
+    <TextView
+        android:id="@+id/ingredients_measure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/measure"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="@+id/ingredients_quantity"
+        app:layout_constraintStart_toEndOf="@+id/ingredients_quantity"
+        app:layout_constraintTop_toTopOf="@+id/ingredients_quantity" />
+</GridLayout>
